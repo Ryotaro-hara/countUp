@@ -1,0 +1,41 @@
+body {
+  font-size: 20px;
+}
+
+.container {
+  position: static;
+  box-sizing: border-box;
+  border: 10px solid #e0e0e0;
+  width: 50%;
+  padding-bottom: 50px;
+}
+
+
+.btn {
+  width: 150px;
+  height: 40px;
+  line-height: 40px;
+  background: #e0e0e0;
+  border: 1px solid black;
+  margin-left: 5px;
+  border-radius: 4px;
+  cursor: default;
+  box-sizing: border-box;
+  user-select: none;
+}
+
+.controls {
+  display: flex;
+  text-align: center;
+}
+
+#timer {
+  margin: 0 0 30px 20px;
+  height: 100px;
+  line-height: 100px;
+  font-size: 50px;
+}
+
+.inactive {
+  opacity: 0.1;
+}
